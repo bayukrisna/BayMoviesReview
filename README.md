@@ -34,7 +34,7 @@ Aplikasi BayMoviesReview diperuntukann bagi para pecinta film. Dalam aplikasi in
 
 #### I. Library lain
 - Recyclerview.
-- Volly.
+- Volley.
 - Glide.
 - Cardview.
 
