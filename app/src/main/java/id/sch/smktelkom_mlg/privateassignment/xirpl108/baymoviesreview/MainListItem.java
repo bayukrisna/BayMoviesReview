@@ -1,25 +1,27 @@
 package id.sch.smktelkom_mlg.privateassignment.xirpl108.baymoviesreview;
 
+import com.orm.SugarRecord;
+
+import java.io.Serializable;
+
 /**
  * Created by Bayu on 5/11/2017.
  */
 
-public class MainListItem {
-    private String imageUri;
+public class MainListItem extends SugarRecord implements Serializable {
+
+    private String imageUrl;
     private String head;
     private String desc;
 
-
-    public MainListItem(String imageUri, String head, String desc) {
-
-        this.imageUri = imageUri;
+    public MainListItem(String imageUrl, String head, String desc) {
+        this.imageUrl = imageUrl;
         this.head = head;
         this.desc = desc;
-
     }
 
-    public String getImageUri() {
-        return imageUri;
+    public String getImageUrl() {
+        return imageUrl;
     }
 
     public String getHead() {
@@ -29,4 +31,6 @@ public class MainListItem {
     public String getDesc() {
         return desc;
     }
+
+
 }

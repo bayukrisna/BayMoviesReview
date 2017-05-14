@@ -44,7 +44,7 @@ public class MainAdapter extends RecyclerView.Adapter<MainAdapter.ViewHolder> {
 
         Glide
                 .with(context)
-                .load(mainListItem.getImageUri())
+                .load(mainListItem.getImageUrl())
                 .into(holder.imageViewOtof);
 
         holder.linearLayout.setOnClickListener(new View.OnClickListener() {
