@@ -26,7 +26,7 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 
 public class DetailActivity extends AppCompatActivity {
-    private static final String URL_DATA = "https://api.nytimes.com/svc/movies/v2/reviews/search.json?api-key=f5abb6679ae54501a9be8139e683bebc";
+    private static final String URL_DATA = "https://api.nytimes.com/svc/movies/v2/reviews/search.json?api-key=1dbd2b147ea540e5b8788ec7ea7cb300";
     public TextView textViewHeadet;
     public TextView textViewDescet;
     public TextView textViewReview;
