@@ -50,7 +50,7 @@ public class MainAdapter extends RecyclerView.Adapter<MainAdapter.ViewHolder> {
         holder.linearLayout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(context, "Silahkan Klik" + mainListItem.getHead(), Toast.LENGTH_LONG).show();
+                Toast.makeText(context, "Film " + mainListItem.getHead(), Toast.LENGTH_LONG).show();
                 Intent singleBlogIntent = new Intent(context, DetailActivity.class);
                 singleBlogIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 singleBlogIntent.putExtra("blog_id", position);
