@@ -1,6 +1,7 @@
 package id.sch.smktelkom_mlg.privateassignment.xirpl108.baymoviesreview;
 
 import android.content.Context;
+import android.content.Intent;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -8,6 +9,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
 
@@ -34,16 +36,27 @@ public class MainAdapter extends RecyclerView.Adapter<MainAdapter.ViewHolder> {
     } //menyambungkan ke xmlnya
 
     @Override
-    public void onBindViewHolder(ViewHolder holder, int position) {
-        final MainListItem homeListItem = mainListItems.get(position);// yg homeListItem digunakan untuk .load
+    public void onBindViewHolder(ViewHolder holder, final int position) {
+        final MainListItem mainListItem = mainListItems.get(position);// yg homeListItem digunakan untuk .load
 
-        holder.textViewHead.setText(homeListItem.getHead());
-        holder.textViewDesc.setText(homeListItem.getDesc());
+        holder.textViewHead.setText(mainListItem.getHead());
+        holder.textViewDesc.setText(mainListItem.getDesc());
 
         Glide
                 .with(context)
-                .load(homeListItem.getImageUri())
+                .load(mainListItem.getImageUri())
                 .into(holder.imageViewOtof);
+
+        holder.linearLayout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(context, "Silahkan Klik" + mainListItem.getHead(), Toast.LENGTH_LONG).show();
+                Intent singleBlogIntent = new Intent(context, DetailActivity.class);
+                singleBlogIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                singleBlogIntent.putExtra("blog_id", position);
+                context.startActivity(singleBlogIntent);
+            }
+        });
     }//mau diapakan viewnya
 
     @Override
