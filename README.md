@@ -17,7 +17,7 @@ Nama Sekolah  : SMK Telkom Malang <br>
 <p> https://api.nytimes.com/svc/movies/v2/reviews/search.json?api-key=1dbd2b147ea540e5b8788ec7ea7cb300 </p>
 
 #### E. Jenis Navigasi
-Navigation 2
+Navigation 2 (Action Bar Tabs).
 
 #### F. Library dari Local Database yang digunakan pada Aplikasi 
 Sugar
@@ -28,7 +28,9 @@ Aplikasi BayMoviesReview diperuntukann bagi para pecinta film. Dalam aplikasi in
 #### H. Kelebihan dari aplikasi
 - User friendly.
 - Data yang ditampilkan cukup banyak.
-- Terdapat fasilitas favorit (istimewa) dimana data yang di klik bintang akan disimpan offline.
+- Setiap data film yang ditampilkan jika diklik akan menampilkan detail.
+- Terdapat fasilitas favorit (istimewa) dimana data yang di klik bintang akan disimpan offline (local database).
+- Terdapat button delete dimana data pada local database bisa dihapus.
 
 #### I. Library lain
 - Recyclerview.
