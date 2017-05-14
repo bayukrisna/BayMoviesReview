@@ -20,7 +20,7 @@ Nama Sekolah  : SMK Telkom Malang <br>
 Navigation 2 (Action Bar Tabs).
 
 #### F. Library dari Local Database yang digunakan pada Aplikasi 
-Sugar
+Sugar ORM
 
 #### G. Deskripsi Singkat.
 Aplikasi BayMoviesReview diperuntukann bagi para pecinta film. Dalam aplikasi ini terdapat berbagai macam pilihan review film yang sangat direkomendasikan bagi para user. Aplikasi ini memiliki jumlah data yang banyak serta bisa menampilkan detail data film yang ditampilkan pada laman online setelah user mengekliknya. Dalam detail, user bisa melakukan fasilitas simpan data secara offline dengan menekan icon bintang yang ada di situ, lalu akan muncul snackbar sebagai notifikasi bahwa data sudah tersimpan secara offline. Data yang disimpan secara offline akan disimpan pada database local dan ditampilkan pada laman istimewa (seperti favorit). Dalam laman favorit ini, user juga bisa menghapus data apabila data tersebut dirasa tidak dibutuhkan lagi.
