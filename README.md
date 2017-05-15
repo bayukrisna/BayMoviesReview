@@ -40,12 +40,12 @@ Aplikasi BayMoviesReview diperuntukann bagi para pecinta film. Dalam aplikasi in
 
 ### C. Screenshoot Aplikasi
 Tampilan dari Fragment ke-1 yang berisi data online. <br>
-![2.png](https://s12.postimg.org/prp075371/ss4.jpg/) <br>
+![2.png](https://s9.postimg.org/4xamrea2n/ss4.jpg) <br>
 Tampilan detail dari data setelah di klik <br>
-![Screenshot_1479658341.png](https://s12.postimg.org/s26f9yxot/ss2.jpg)<br>
+![Screenshot_1479658341.png](https://s14.postimg.org/3p8o7aiz5/ss2.jpg)<br>
 Icon bintang untuk menyimpan data secara offline pada laman detail dan akan muncul snackbar notifikasi.<br>
-![3.png](https://s14.postimg.org/ls6cc2oq9/ss5.jpg) <br>
+![3.png](https://s12.postimg.org/dn2ub3pot/ss5.jpg) <br>
 Tampilan Fragment ke-2 yaitu laman istimewa berupa data favorit atau berbintang (local database). <br>
-![4.png](https://s11.postimg.org/5qs0drrxv/ss1.jpg/) <br>
+![4.png](https://s8.postimg.org/z1l1a9ib9/ss1.jpg) <br>
 Button delete digunakan untuk menghapus data, dan bisa dilihat jika data sudah berkurang. <br>
-![2.png](https://s30.postimg.org/yvo2d04xt/ss3.jpg) <br>
+![2.png](https://s24.postimg.org/3pi1f0x6t/ss3.jpg) <br>
